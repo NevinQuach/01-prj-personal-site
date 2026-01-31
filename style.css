@@ -1,1 +1,34 @@
-/* Add you CSS here */
+/* Format code for home page */
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  background-color: beige
+}
+
+.home-page img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 25px;
+  border: 5px solid black
+}
+
+/* Format code for horizontal navigation bar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 25px;
+  background-color: bisque;
+  gap: 25px;
+}
+
+/* Format code for Footer text */
+footer {
+  text-align: center;
+  padding: 25px;
+}
+
